@@ -1,0 +1,33 @@
+body{
+  margin: 0px;
+  margin-top: 90px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+
+  color: rgb(33, 60, 66);
+  z-index: 0;
+}
+
+h2{
+  margin: 0px;
+}
+
+p{
+  margin: 0px;
+  color: rgb(60, 98, 107);
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+@media (max-width: 768px){
+  body{
+    font-size: 14px;
+  }
+}
