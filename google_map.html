@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Map</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="hobbies.html">3D Modeling</a></li>
+        <li><a href="gaming.html">Gaming</a></li>
+        <li><a href="google_map.html">Google Map</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="map_container">
+    <div id="map"></div>
+  </div>
+  <!-- Load Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8wohirl7DCqjZMB7_zG6CTFnzWytew90&callback=initMap&libraries=maps&v=beta" async defer></script>
+</body>
+</html>
